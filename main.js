@@ -1,6 +1,6 @@
 mustache_x = 0;
-mustasche_y = 0;
-function preLoad()
+mustache_y = 0;
+function preload()
 {
     mustache = loadImage('https://i.postimg.cc/DzZ8zWG0/download.png');
 }
@@ -45,7 +45,7 @@ function draw()
     image(video, 0, 0, 300, 300);
     //fill(255, 0, 0)
     //circle(mustache_x, mustache_y, 30);
-   //image(mustache, mustache_x, mustache_y, 30, 30);
+   image(mustache, mustache_x, mustache_y, 30, 30);
 }
 
 function take_snapshot()
